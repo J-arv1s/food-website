@@ -1,0 +1,12 @@
+p {
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.food-pic {
+    background-image: url('./paella-rice.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}

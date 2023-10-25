@@ -1,11 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEV</title>
-</head>
-<body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     
+    <link rel="stylesheet" href="./style.css">
+    <title>Recipes</title>
+</head>
+        
+<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand bg-body-tertiary" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand nav-link" href="home.html">Favourite Food</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="true">Recipes</a></li>
+                <li class="nav-item"><a class="nav-link" href="locations.html">Locations</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="d-flex align-items-center flex-grow-1">
+            <div class="container my-auto">
+                <div class="row justify-content-center text-center">
+                    <div class="col-6 bg-primary">
+                        <!--heading-->
+                        <span class="text-warning">Favourite</span> Food
+                        <!--sub-heading-->
+                        <h1 class="display-1 text-white mb-2">Paella</h1>
+                        <!--ingredients-->
+                        <h4>Ingredients</h4>
+                        <p class="mb-2">
+                            1 tbsp olive oil <br>
+                            1 onion, chopped <br>
+                            1 tsp each hot smoked paprika and dried thyme <br>
+                            300g short grain rice <br>
+                            3 tbsp dry sherry or white wine (optional) <br>
+                            400g chopped tomatoes with garlic <br>
+                            900ml chicken stock <br>
+                            400g seafood mix, your choice <br>
+                            1 lemon, ½ juiced, ½ cut into wedges <br>
+                            Handful of flat-leaf parsley, roughly chopped      
+                        </p>
+                        <!--recipe-->
+                        <h4>Recipe</h4>
+                        <p class="mb-5">
+                            STEP 1 <br>
+                            Heat the olive oil in a large frying pan or wok. 
+                            Add the onion and soften for 5 mins. <br>
+
+                            STEP 2 <br>
+                            Add the smoked paprika, thyme and paella rice, stir 
+                            for 1 min, then splash in the sherry, if using. Once evaporated, 
+                            stir in the chopped tomatoes and chicken stock. <br>
+
+                            STEP 3 <br>
+                            Season and cook, uncovered, for about 15 mins, stirring 
+                            now and again until the rice is almost tender and 
+                            still surrounded with some liquid. <br>
+
+                            STEP 4 <br>
+                            Stir in the seafood mix and cover with a lid. Simmer
+                            for 5 mins, or until the seafood is cooked through
+                            and the rice is tender. Squeeze over the lemon
+                            juice, scatter over the parsley and serve with 
+                            the lemon wedges. <br>
+                        </p>
+                    </div>
+                    <div class="col-6 bg-secondary food-pic">
+
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="social-icons">
+                        <i class="fa-brands fa-twitter fs-3"></i>
+                        <i class="fa-brands fa-facebook fs-3"></i>
+                        <i class="fa-brands fa-instagram fs-3"></i>
+                    </div>
+                    <div class="address">
+                        Smethwick
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
