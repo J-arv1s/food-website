@@ -26,3 +26,10 @@ p {
 .image-container {
     padding: 25px;
 }
+
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./valencia-toon.jpg");
+    background-size: cover;
+}
