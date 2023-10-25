@@ -1,3 +1,8 @@
+h1 {
+    font-size: 70px;
+    color: #e9603e;
+}
+
 p {
     font-size: small;
     font-style: italic;
@@ -7,6 +12,17 @@ p {
 
 .food-pic {
     background-image: url('./paella-rice.jpg');
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
+    background-size: cover;
+    border: solid rgb(0, 0, 0) 5px;
+}
+
+.recipe-box {
+    background-color: #EAE8CA;
+    border: solid rgb(0, 0, 0) 5px;
+    padding: 10px;
+}
+.image-container {
+    padding: 25px;
 }
